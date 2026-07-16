@@ -19,4 +19,24 @@
    }
    return 0;
    }
+
+
+2. PASS OR FAIL
+
+   #include <stdio.h>
+   int main ()
+   {
+   int n;
+   printf ("enter a number");
+   scanf ("%d",&n);
+   if (n>=20)
+   {
+   printf ("%d is pass");
+   }
+   else
+   {
+   printf ("%d is fail");
+   }
+   return 0;
+   }
    
