@@ -1,2 +1,22 @@
 # C-program
-This is the repository where i upload C-programs
+
+
+1. ODD OR EVEN
+
+   #include <stdio.h>
+   int main ()
+   {
+   int n;
+   printf ("enter a number");
+   scanf ("%d",&n);
+   if (n%2==0)
+   {
+   printf ("%d is even");
+   }
+   else
+   {
+   printf ("%d is odd");
+   }
+   return 0;
+   }
+   
